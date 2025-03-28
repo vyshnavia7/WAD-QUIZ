@@ -1,0 +1,12 @@
+### Get a random quiz question
+GET http://localhost:3000/question
+Content-Type: application/json
+
+### Submit an answer
+POST http://localhost:3000/answer
+Content-Type: application/json
+
+{
+  "id": 1,
+  "answer": "Paris"
+  }
